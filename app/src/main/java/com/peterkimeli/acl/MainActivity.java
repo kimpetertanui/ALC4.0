@@ -22,16 +22,16 @@ public class MainActivity extends AppCompatActivity {
         AboutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent AboutIntent =new Intent(MainActivity.this, AboutActivity.class);
-                startActivity(AboutIntent);
+                Intent aboutIntent =new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(aboutIntent);
             }
         });
 
         ProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ProfileIntent= new Intent(MainActivity.this,ProfileActivity.class);
-                startActivity(ProfileIntent);
+                Intent profileIntent= new Intent(MainActivity.this,ProfileActivity.class);
+                startActivity(profileIntent);
 
             }
         });
